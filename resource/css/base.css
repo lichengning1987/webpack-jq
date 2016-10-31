@@ -1,0 +1,87 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1;}
+ol, ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';content:none;}
+table {border-collapse:collapse;border-spacing:0;}
+/*clearfix*/
+.clearfix {*zoom:1;}
+.clearfix:before,
+.clearfix:after {display:table;line-height:0;content:"";}
+.clearfix:after {clear: both;}
+/*global*/
+body{font:14px/1 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei",MicrosoftYaHei,"Hiragino Sans GB","STHeiti Light","Heiti SC",sans-serif;color:#333;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+input, textarea, select, button{font:inherit;-webkit-appearance:none;-moz-appearance:none;-o-appearance:none;appearance:none;}
+a{-webkit-tap-highlight-color:transparent;outline:none;}
+a:focus{outline:none;}
+.page{position:relative;min-width:768px;}
+.container{max-width:1180px;margin-left:auto;margin-right:auto;padding-left:10px;padding-right:10px;}
+.main{padding:79px 0 0 0;}
+.i-bubble{background-position:-58px -138px;}
+.i-code2d{background-position:-173px -138px;}
+.i-house{background-position:-58px -198px;}
+.i-arrow{background-position:-173px -198px;}
+
+/*animation*/
+.fadein{-webkit-animation:fadeIn 0.3s 0s linear both;-moz-animation:fadeIn 0.3s 0s linear both;}
+.fadeout{-webkit-animation:fadeOut 0.3s 0s linear both;-moz-animation:fadeOut 0.3s 0s linear both;}
+.fadeinout{-webkit-animation:fadeInOut 2s 0s linear both;-moz-animation:fadeInOut 2s 0s linear both;}
+@-webkit-keyframes fadeInOut {
+    0%{opacity:0;}
+    10%{opacity:1;}
+    90%{opacity:1;}
+    100%{opacity:0;}
+}
+@-moz-keyframes fadeInOut {
+    0%{opacity:0;}
+    10%{opacity:1;}
+    90%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes fadeInOut {
+    0%{opacity:0;}
+    10%{opacity:1;}
+    90%{opacity:1;}
+    100%{opacity:0;}
+}
+@-webkit-keyframes fadeIn {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@-moz-keyframes fadeIn {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@keyframes fadeIn {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@-webkit-keyframes fadeOut {
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
+@-moz-keyframes fadeOut {
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes fadeOut {
+    0%{opacity:1;}
+    100%{opacity:0;}
+}

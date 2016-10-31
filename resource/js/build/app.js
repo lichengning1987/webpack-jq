@@ -1,0 +1,1 @@
+webpackJsonp([0],[function(n,c,t){var o=t(1);t(3);o("button").click(function(){alert("你好！")})}]);
